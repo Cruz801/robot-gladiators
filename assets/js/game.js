@@ -23,7 +23,7 @@ var fight = function (enemyName) {
       );
 
        //if player picks "skip" confirm and then stop the loop
-  } if (promptFight === "skip" || promptFight === "SKIP") {
+  if (promptFight === "skip" || promptFight === "SKIP") {
     // confirm player wants to skip
     var confirmSkip = window.confirm("Are you sure you'd like to quit?");
 
@@ -87,7 +87,7 @@ var fight = function (enemyName) {
 
     
 
-}
+
 
 for (var i = 0; i < enemyNames.length; i++) {
     var pickedEnemyName = enemyNames[i];
