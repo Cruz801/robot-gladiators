@@ -98,7 +98,7 @@ while (playerInfo.health > 0 && enemy.health > 0) {
       window.alert(playerInfo.name + " still has " + playerInfo.health + " health left.");
     }
 };
-
+}
    
 // function to start a new game
 var startGame = function() {
